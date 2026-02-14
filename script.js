@@ -32,7 +32,7 @@ setInterval(createHeart, 300);
 const daysCountSpan = document.getElementById("daysCount");
 function updateDays() {
   if (!daysCountSpan) return;
-  const startDate = new Date(2025, 11, 24);
+  const startDate = new Date(2025, 10, 24);
   const today = new Date();
   startDate.setHours(0,0,0,0);
   today.setHours(0,0,0,0);
@@ -108,3 +108,4 @@ function toggleMusic() {
 }
 
 if (musicBtn) musicBtn.addEventListener("click", toggleMusic);
+
